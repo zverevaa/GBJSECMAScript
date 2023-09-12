@@ -1,0 +1,1 @@
+return `name: ${name}, phone: ${this.contacts.get(name)}`;
