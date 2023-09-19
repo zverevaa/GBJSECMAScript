@@ -6,8 +6,6 @@ async function getUsers() {
    return users;
 }
 
-const users = await getUsers();
-
 function saveUsersToStorage(users) {
     localStorage.setItem('users', JSON.stringify(users));
 }
